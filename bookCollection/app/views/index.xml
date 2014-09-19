@@ -6,5 +6,9 @@
 		<TabelView dataCollection="books">
 			<TabelViewRow title="{title}" author="{author}" onClick="showBook"></TabelViewRow>
 		</TabelView>
+		<!-- addbook -->
+		<Menu id="menu" platform="android">
+			<MenuItem id="addBook" title="Add hook" onClick="addBook" ShowAsAction="Ti.Android.SHOW_AS_ACTION_IF_ROOM" />
+		</Menu>
 	</Window>
 </Alloy>
