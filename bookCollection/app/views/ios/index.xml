@@ -1,0 +1,10 @@
+<Alloy>
+    <Collection src="books"/>
+    <NavigationWindow id="navGroupWin">
+        <Window class="container">
+            <TableView dataCollection="books">
+                <TableViewRow title="{title}" author="{author}" ></TableViewRow>
+            </TableView>
+        </Window>
+    </NavigationWindow>>
+</Alloy>
