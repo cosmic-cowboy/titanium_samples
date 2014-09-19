@@ -3,7 +3,7 @@
     <NavigationWindow id="navGroupWin">
         <Window class="container">
             <TableView dataCollection="books">
-                <TableViewRow title="{title}" author="{author}" ></TableViewRow>
+                <TableViewRow title="{title}" author="{author}" onClick="showBook"></TableViewRow>
             </TableView>
         </Window>
     </NavigationWindow>>

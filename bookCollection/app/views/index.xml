@@ -4,7 +4,7 @@
 		<!-- add tableview and row -->
 		<!-- assign books to the TableView element's dataCollection -->
 		<TabelView dataCollection="books">
-			<TabelViewRow title="{title}" author="{author}"></TabelViewRow>
+			<TabelViewRow title="{title}" author="{author}" onClick="showBook"></TabelViewRow>
 		</TabelView>
 	</Window>
 </Alloy>
