@@ -1,6 +1,6 @@
 <Alloy>
 	<View class="addAddress">
 		<TextField id="textField" hintText="Enter an address"></TextField>
-		<Button id="button" title="+"></Button>
+		<Button id="button" title="+" onClick="searchMap"></Button>
 	</View>
 </Alloy>
