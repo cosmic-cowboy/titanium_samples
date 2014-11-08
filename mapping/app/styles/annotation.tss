@@ -1,4 +1,6 @@
-
-".container" : {
-  
+"Annotation": {
+	animate: true,
+	pincolor: Ti.Map.ANNOTATION_RED,
+	// 代用
+	leftButton :  Titanium.UI.iPhone.SystemButton.INFO_LIGHT
 }

@@ -1,4 +1,6 @@
 <Alloy>
-	<View class="container">
+	<View class="addAddress">
+		<TextField id="textField" hintText="Enter an address"></TextField>
+		<Button id="button" title="+"></Button>
 	</View>
 </Alloy>

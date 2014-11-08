@@ -1,4 +1,8 @@
 <Alloy>
-	<View class="container">
+	<Module id="map" module="ti.map" method="createView" platform="ios, android">
+		<Require src="annotation" title="台北"></Require>
+	</Module>
+	<View id="map" ns="Ti.Map" method="createView" platform="mobileweb">
+		<Require src="annotation" title="台北"></Require>
 	</View>
 </Alloy>

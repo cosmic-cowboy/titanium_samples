@@ -1,11 +1,15 @@
-// The contents of this file will be executed before any of
-// your view controllers are ever executed, including the index.
-// You have access to all functionality on the `Alloy` namespace.
-//
-// This is a great place to do any initialization for your app
-// or create any global variables/functions that you'd like to
-// make available throughout your app. You can easily make things
-// accessible globally by attaching them to the `Alloy.Globals`
-// object. For example:
-//
-// Alloy.Globals.someGlobalFunction = function(){};
+// var geo = require('geo');
+
+// Tai-pei
+Alloy.Globals.LATITUDE_BASE = 25.0391667;
+Alloy.Globals.LONGITUDE_BASE = 121.525;
+
+// Mapモジュールの読み込み
+if(OS_IOS || OS_ANDROID) {
+	Alloy.Globals.Map = Ti.Map = require('ti.map');
+}
+
+// 描画領域を下げる
+Alloy.Globals.winTop = (OS_IOS && parseInt(Ti.Platform.version, 10) >= 7) ? 20 : 0;
+
+Ti.UI.backgroundColor = "#fff";
