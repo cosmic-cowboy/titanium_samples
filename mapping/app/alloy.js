@@ -1,4 +1,4 @@
-// var geo = require('geo');
+var geo = require('lib/geo');
 
 // Tai-pei
 Alloy.Globals.LATITUDE_BASE = 25.0391667;
